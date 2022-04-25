@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Forms Page</title>
+</head>
+
+<body>
+    <h1>Sample Forms</h1>
+    <p>
+        <form action="/myapi" method="get">
+            <label for="username">User name</label>
+            <input id="username" type="text" placeholder="eg: bubba" name="username" required="true" />
+
+            <br />
+            <br />
+            <label for="password">Password</label>
+            <input id="password" type="password" / name="password" minlength="8" required="true">
+
+            <br />
+            <br />
+
+            <label for="date">Date</label>
+            <input id="date" type="date ">
+
+            <br />
+            <br />
+            <h3>Accept the Terms Below</h3>
+            <label for="acceptterms">Accept the Terms</label>
+            <input type="checkbox" name="acceptterms" id="acceptterms">
+
+            <br />
+            <br />
+
+            <fieldset>
+                <h3>Choose Your Favorite Animal This is an H3</h3>
+                <legend>Choose Your Favorite Animal. This is the legend attribute.</legend>
+                <label for="dog">Dog</label>
+                <input id="dog" type="radio" name="Animal" value="Dog"><br />
+                <label for="cat">Cat</label>
+                <input id="cat" type="radio" name="Animal" value="Cat"><br />
+                <label for="horse">Horse</label>
+                <input id="horse" type="radio" name="Animal" value="Horse"><br />
+            </fieldset>
+
+
+
+            <br />
+
+            <button>Submit Your Login Data!</button>
+        </form>
+
+    </p>
+
+</body>
+
+</html>
